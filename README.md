@@ -102,7 +102,7 @@ This DocBook template is designed to work with Asciidoctor and [asciidoctor-fopu
 - [Ruby] and the following Ruby Gems:
     + [Asciidoctor]
     + [asciidoctor-fopub]
-- [Java JDK8]
+- [Java JDK12]
 
 Windows users should install Ruby via [RubyInstaller], or using [Chocolatey]/[Chocolatey GUI] and the [Chocolatey Ruby] package.
 
@@ -114,11 +114,11 @@ The AsciiDoc to PDF toolchain requires setting up asciidoctor-fopub on your mach
 
 Here are some instructions on how to setup asciidoctor-fopub:
 
-1. __JDK8__ — Download and install [Java JDK8].
+1. __JDK12__ — Download and install [Java JDK12].
 
-    If you have other versions of Java SE/JDK uninstall them. In order to use asciidoctor-fopub you'll need Java JDK 8 (versions 6 and 7 are also known to work, but are not recomended for security reasons); you won't be able to use JDK version 10 due to [incompatibility problems with gradle].
+    If you have other versions of Java SE/JDK uninstall them. In order to use asciidoctor-fopub you'll need Java JDK 12 (versions 6, 7 and 8 are also known to work, but are not recomended for security reasons).
 
-    Hopefully, in the future this incompatibility problem might be fixed in [asciidoctor-fopub] and it will be possible to use it with the latests JDK. For the time being JDK 8 is required.
+    > __NOTE__ — The previous [incompatibility problems with gradle] that prevented using Java >=9 is now fixed in [asciidoctor-fopub] and all users are now advised to update to the the latests JDK, and stop using JDK 8!
 
 2. __Clone asciidoctor-fopub__ — There is no installation for this tool, just clone it somewhere on your hard disk using Git:
 
@@ -141,7 +141,7 @@ Here are some instructions on how to setup asciidoctor-fopub:
 See also the [setup instructions found at the asciidoctor-fopub] repository.
 
 [setup instructions found at the asciidoctor-fopub]: https://github.com/asciidoctor/asciidoctor-fopub#prerequisites
-[Java JDK8]: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+[Java JDK12]: https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html
 [incompatibility problems with gradle]: https://github.com/asciidoctor/asciidoctor-fopub/issues/87
 
 

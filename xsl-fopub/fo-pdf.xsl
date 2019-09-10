@@ -1505,6 +1505,16 @@
     <xsl:attribute name="rule-thickness">0.5pt</xsl:attribute>
   </xsl:attribute-set>
 
+  <!-- ============================
+       SUPPRESS LINK URLs FOOTNOTES
+       ============================
+       Don't create footnote with URL for inline links.
+       While these footnotes are useful for printed books, they are useless (and
+       ugly) in PDF documents, for links are actively clickable in them.
+  -->
+  <xsl:param name="ulink.footnotes" select="0"></xsl:param>
+  <xsl:param name="ulink.show" select="0"></xsl:param>
+
   <!-- Index does not use normal.para.spacing, so set text.color explicitly -->
   <!--
   <xsl:attribute-set name="index.div.title.properties">

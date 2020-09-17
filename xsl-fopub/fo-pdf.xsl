@@ -603,7 +603,8 @@
 
 <!-- CUSTOMIZATION BEGIN -->
 <!--============================================================================
-                               EXAMPLES (INFORMAL)                              
+                               EXAMPLES (INFORMAL)
+
 =============================================================================-->
 <xsl:attribute-set name="informalexample.properties" use-attribute-sets="informal.object.properties">
   <!-- ========
@@ -699,7 +700,8 @@
 
 
   <!--==========================================================================
-                                EXAMPLES (FORMAL)                               
+                                EXAMPLES (FORMAL)
+
   ===========================================================================-->
   <xsl:attribute-set name="example.properties" use-attribute-sets="formal.object.properties">
     <xsl:attribute name="border-width">1pt</xsl:attribute>
@@ -1286,7 +1288,8 @@
     <xsl:attribute name="font-weight">bold</xsl:attribute>
     <xsl:attribute name="color">
       <xsl:value-of select="$list_bullet.color"/>
-    </xsl:attribute> 
+    </xsl:attribute>
+
   </xsl:attribute-set>
 
   <!-- ====================================

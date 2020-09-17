@@ -150,7 +150,7 @@ See also the [setup instructions found at the asciidoctor-fopub] repository.
 The easiest way to include this template into your project and keep it up to date is via [Git submodules]:
 
 > Submodules allow you to keep a Git repository as a subdirectory of another Git repository. This lets you clone another repository into your project and keep your commits separate.
-> 
+>
 > — _[Pro Git]_ book, [§7.11 - Submodules][Git submodules]
 
 To add the template as a submodule within your project, use the `git submodule add` command:
@@ -171,7 +171,7 @@ You can safely keep the submodule in your project pointing to the tip of `master
 
 We'll strive to keep all template updates backward-compatible, but since this can't be guaranteed 100%, you're strongly adviced to consult this document for the list of changes before moving the pointer of your submodule in your project.
 
-Currently we haven't decided a formal update strategy for this project: it doesn't employ a versioning scheme and there are no releases. Until further notice, feel safe to always update your submodule to the tip of `master` branch. 
+Currently we haven't decided a formal update strategy for this project: it doesn't employ a versioning scheme and there are no releases. Until further notice, feel safe to always update your submodule to the tip of `master` branch.
 
 In the future we might adopt SemVer schemed releases, which could simplify intuitively detecting backward-breaking changes and manually updating the submodule pointer accordingly. Any proposal and advice on this topic is most welcome; feel free to [open an Issue].
 
@@ -330,7 +330,7 @@ THE SOFTWARE.
 - [Using submodules in Git - Tutorial] — by Lars Vogel.
 
 <!-----------------------------------------------------------------------------
-                               REFERENCE LINKS                                
+                               REFERENCE LINKS
 ------------------------------------------------------------------------------>
 
 [open an Issue]: https://github.com/alan-if/alan-xsl-fopub/issues/new

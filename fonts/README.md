@@ -51,7 +51,7 @@ The `LICENSE` file of each font can be found inside its subfolder.
 
 
 <!-----------------------------------------------------------------------------
-                               REFERENCE LINKS                                
+                               REFERENCE LINKS
 ------------------------------------------------------------------------------>
 
 <!-- In-Doc Links -->

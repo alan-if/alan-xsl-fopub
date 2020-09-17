@@ -95,14 +95,16 @@
     <fo:inline color="#DD1144"><xsl:apply-templates mode="xslthl"/></fo:inline>
   </xsl:template>
 
-  
+
+
   <xsl:template match="xslthl:annotation" mode="xslthl">
     <fo:inline color="#000077"><xsl:apply-templates mode="xslthl"/></fo:inline>
     <!--
     <fo:inline color="#888888"><xsl:apply-templates mode="xslthl"/></fo:inline>
     -->
   </xsl:template>
-  
+
+
   <!-- directive is mapped to a processing instruction in XML -->
   <xsl:template match="xslthl:directive" mode="xslthl">
     <fo:inline font-weight="bold" color="#999999"><xsl:apply-templates mode="xslthl"/></fo:inline>
@@ -111,7 +113,8 @@
   <xsl:template match="xslthl:doctype" mode="xslthl">
     <fo:inline font-weight="bold" color="#999999"><xsl:apply-templates mode="xslthl"/></fo:inline>
   </xsl:template>
-  
+
+
   <xsl:template match="xslthl:doccomment" mode="xslthl">
     <fo:inline font-style="italic" color="#999999"><xsl:apply-templates mode="xslthl"/></fo:inline>
   </xsl:template>

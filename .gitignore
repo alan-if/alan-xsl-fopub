@@ -1,7 +1,7 @@
-################################################################################
-# Alan DocBook XSL Template for Asciidoctor-fopub                              #
-# https://github.com/alan-if/alan-xsl-fopub                                    #
-################################################################################
+#####################################################
+#  Alan DocBook XSL Template for Asciidoctor-fopub  #
+#  https://github.com/alan-if/alan-xsl-fopub        #
+#####################################################
 
 *.tmp
 
@@ -16,7 +16,7 @@ ___*.*
 *.url
 
 # ==============================================================================
-#                              MISC IGNORE PATTERNS                             
+#                              MISC IGNORE PATTERNS
 # ==============================================================================
 # Based on ".gitignore" created by:
 # https://www.gitignore.io/api/windows,linux,macos,purebasic

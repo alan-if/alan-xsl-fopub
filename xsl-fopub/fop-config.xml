@@ -9,7 +9,8 @@ IMPORTANT:  All paths should be relative to the repository's "_assets" folder!
 -->
 <fop version="1.0">
   <strict-configuration>true</strict-configuration>
-  
+
+
   <renderers>
     <renderer mime="application/pdf">
       <fonts>

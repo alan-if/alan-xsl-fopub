@@ -27,7 +27,8 @@
   <xsl:param name="chapter.title.color" select="$title.color"/>
   <xsl:param name="section.title.color" select="$title.color"/>
   <xsl:param name="caption.color">#7A2518</xsl:param>
-  
+
+
   <!-- List Bullet Color -->
   <xsl:param name="list_bullet.color">#FD7070</xsl:param><!-- Red -->
 
@@ -37,7 +38,8 @@
   <xsl:param name="inline_code.background-color">#F5F5F5</xsl:param><!-- Warm White -->
 
   <!--==========================================================================
-                             Verbatim Blocks Defaults                           
+                             Verbatim Blocks Defaults
+
   ==============================================================================
   Defaults for Code, Verbatim and Listing blocks that don't have custom setting.
   -->
@@ -50,7 +52,8 @@
   <xsl:param name="Verbatim.border.style" >solid</xsl:param>
 
   <!--==========================================================================
-                                 Example Defaults                               
+                                 Example Defaults
+
   ==============================================================================
   Default values for Example blocks.                                         -->
 
@@ -62,7 +65,8 @@
   <xsl:param name="Example.border.style" >solid</xsl:param>
 
   <!--==========================================================================
-                                       Alan                                     
+                                       Alan
+
   ==============================================================================
   Alan sourcecode syntax highlighting theme.
 
@@ -87,7 +91,8 @@
   <xsl:param name="AlanHL.border.radius" select="$Verbatim.border.radius"></xsl:param>
 
   <!--==========================================================================
-                                       BNF                                      
+                                       BNF
+
   ==============================================================================
   BNF rules color scheme.                                                    -->
 
@@ -100,7 +105,8 @@
   <xsl:param name="BNF.border.radius" select="$Verbatim.border.radius"></xsl:param>
 
   <!--==========================================================================
-                                 Game Transcripts                               
+                                 Game Transcripts
+
   ==============================================================================
   IF Game Transcripts color scheme (example,role="gametranscript").          -->
 
@@ -110,9 +116,11 @@
   <xsl:param name="IFPlay.border.width" >.15pt</xsl:param>
   <xsl:param name="IFPlay.border.style" >solid</xsl:param>
   <xsl:param name="IFPlay.border.radius" select="$Verbatim.border.radius"></xsl:param>
- 
+
+
   <!--==========================================================================
-                                      Shell                                     
+                                      Shell
+
   ==============================================================================
   Shell examples color scheme.
 

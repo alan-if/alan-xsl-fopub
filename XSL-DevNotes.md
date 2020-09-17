@@ -210,7 +210,7 @@ Dependencies:
 - [XSLTHL Wiki] — at Sourceforge.
 
 <!-----------------------------------------------------------------------------
-                               REFERENCE LINKS                                
+                               REFERENCE LINKS
 ------------------------------------------------------------------------------>
 
 [asciidoctor-fopub]: https://github.com/asciidoctor/asciidoctor-fopub
